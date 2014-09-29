@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestTworkGUI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="names">
+        <item>Kalle Karlsson</item>
+        <item>Nick Diaz</item>
+        <item>Carlos Castaneda</item>
+        <item>Milan Kundera</item>
+        <item>Jag Jagsson</item>
+    </string-array>
+
+    <string-array name="timestamps">
+        <item>2 mintues ago</item>
+        <item>35 minutes ago</item>
+        <item>2 hours ago</item>
+        <item>3 hours ago</item>
+        <item>8 hours ago</item>
+    </string-array>
+</resources>

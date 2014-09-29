@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".home"
+    android:background="@color/feed_bg"
+
+
+    >
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="fill_parent">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/settings"
+            android:layout_gravity="center"
+            android:background="@color/feed_bg"
+            android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+    <ListView
+        android:id="@+id/listView"
+        android:scrollbars="none"
+        android:layout_centerInParent="true"
+        android:layout_width="370dp"
+        android:layout_height="fill_parent"
+        android:dividerHeight="10dp"
+        android:divider="@color/feed_bg"
+
+         />
+
+    <LinearLayout
+        android:layout_width="70dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home"
+            android:layout_gravity="center"
+            android:id="@+id/toHome"
+            android:layout_marginLeft="15dp"
+            android:onClick="goToUserPage"
+            android:background="@color/feed_bg"/>
+    </LinearLayout>
+</RelativeLayout>

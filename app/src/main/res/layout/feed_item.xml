@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/feed_bg"
+    android:orientation="vertical" >
+
+    
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="270dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/bg_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/bg_item"
+           >
+        <ImageView
+            android:id="@+id/not"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Jag Jagsson"
+            android:textSize="20dp"
+            android:textColor="#ECF0F1"/>
+
+        <TextView
+            android:id="@+id/timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22 minutes ago"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="3dp"
+            android:layout_below="@id/name"
+            android:textColor="#ECF0F1"
+            android:textSize="10dp"
+            android:textStyle="italic"/>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/play"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"/>
+
+
+        </RelativeLayout>
+
+
+</RelativeLayout>
